@@ -42,7 +42,6 @@
 		901179F62B948B52003DCCC0 = {
 			isa = PBXGroup;
 			children = (
-				90117A162B949140003DCCC0 /* SecondViewController.swift */,
 				90117A012B948B52003DCCC0 /* LoginScreen */,
 				90117A002B948B52003DCCC0 /* Products */,
 			);
@@ -62,6 +61,7 @@
 				90117A022B948B52003DCCC0 /* AppDelegate.swift */,
 				90117A042B948B52003DCCC0 /* SceneDelegate.swift */,
 				90117A062B948B52003DCCC0 /* ViewController.swift */,
+				90117A162B949140003DCCC0 /* SecondViewController.swift */,
 				90117A082B948B52003DCCC0 /* Main.storyboard */,
 				90117A0B2B948B56003DCCC0 /* Assets.xcassets */,
 				90117A0D2B948B56003DCCC0 /* LaunchScreen.storyboard */,

@@ -9,8 +9,6 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    @IBOutlet weak var titleLsbel: UILabel!
-    
     // MARK: - Life cycle
     override func viewDidLoad() {
         super.viewDidLoad()
