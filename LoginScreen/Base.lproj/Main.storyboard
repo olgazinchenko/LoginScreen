@@ -121,7 +121,7 @@
                                     </view>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="G2U-a1-yOM">
                                         <rect key="frame" x="0.0" y="340" width="333" height="41.333333333333314"/>
-                                        <color key="backgroundColor" red="0.72376120089999996" green="0.2536925673" blue="0.34117352960000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <color key="backgroundColor" red="0.72549019607843135" green="0.25490196078431371" blue="0.3411764705882353" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="G2U-a1-yOM" secondAttribute="height" multiplier="8:1" id="WeP-fY-xTg"/>
                                         </constraints>
@@ -183,6 +183,9 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="ikm-Lb-M6D"/>
+                    <connections>
+                        <outlet property="loginButton" destination="G2U-a1-yOM" id="EYW-NE-Qux"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

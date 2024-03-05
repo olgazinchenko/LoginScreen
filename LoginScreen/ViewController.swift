@@ -9,12 +9,22 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    // MARK: - IBOutlets
+    @IBOutlet weak var loginButton: UIButton!
+    
     // MARK: - Life cycle
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        addShadowToLoginButton()
     }
-
+    
+    // MARK: - Methods
+    private func addShadowToLoginButton() {
+        loginButton.layer.shadowColor = UIColor.loginButton.cgColor
+        loginButton.layer.shadowOffset = CGSize(width: 0, height: 2)
+        loginButton.layer.shadowOpacity = 0.7
+        loginButton.layer.shadowRadius = 6
+    }
 
 }
 
