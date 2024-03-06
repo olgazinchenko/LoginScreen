@@ -18,6 +18,14 @@ class ViewController: UIViewController {
     @IBOutlet weak var signupLabel: UILabel!
     @IBOutlet weak var signupButton: UIButton!
     
+    // MARK: - IBActions
+    @IBAction func loginButtonAction(_ sender: UIButton) {
+    }
+    @IBAction func signupButtonAction(_ sender: UIButton) {
+    }
+    
+    
+    
     // MARK: - Life cycle
     override func viewDidLoad() {
         super.viewDidLoad()
