@@ -10,6 +10,7 @@ import UIKit
 class ViewController: UIViewController {
 
     // MARK: - IBOutlets
+    @IBOutlet weak var logoImage: UIImageView!
     @IBOutlet weak var loginButton: UIButton!
     @IBOutlet weak var emailTextField: UITextField!
     @IBOutlet weak var passwordTextField: UITextField!
@@ -17,6 +18,8 @@ class ViewController: UIViewController {
     @IBOutlet weak var passwordDividerView: UIView!
     @IBOutlet weak var signupLabel: UILabel!
     @IBOutlet weak var signupButton: UIButton!
+    @IBOutlet weak var emailIcon: UIImageView!
+    @IBOutlet weak var passwordIcon: UIImageView!
     
     // MARK: - IBActions
     @IBAction func loginButtonAction(_ sender: UIButton) {

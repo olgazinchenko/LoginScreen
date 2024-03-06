@@ -189,9 +189,12 @@
                     <navigationItem key="navigationItem" id="ikm-Lb-M6D"/>
                     <connections>
                         <outlet property="emailDividerView" destination="mGW-1p-naL" id="4QD-8V-r3f"/>
+                        <outlet property="emailIcon" destination="7At-X7-zRq" id="N2L-Ta-gqo"/>
                         <outlet property="emailTextField" destination="hX0-cQ-Uxh" id="BsA-n4-ogm"/>
                         <outlet property="loginButton" destination="G2U-a1-yOM" id="EYW-NE-Qux"/>
+                        <outlet property="logoImage" destination="iuS-Dp-Le5" id="sm1-Ab-lyR"/>
                         <outlet property="passwordDividerView" destination="KGM-vh-N2o" id="uYW-hg-2TK"/>
+                        <outlet property="passwordIcon" destination="e2L-mf-yzE" id="7mh-Av-GSH"/>
                         <outlet property="passwordTextField" destination="SPF-ZL-wCn" id="nqg-6c-ApO"/>
                         <outlet property="signupButton" destination="z9A-Hp-xP6" id="H7y-Si-Hb8"/>
                         <outlet property="signupLabel" destination="BY8-4W-jgP" id="7Vv-GP-mC1"/>
