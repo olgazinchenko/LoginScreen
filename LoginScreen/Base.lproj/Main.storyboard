@@ -137,7 +137,6 @@
                                         </userDefinedRuntimeAttributes>
                                         <connections>
                                             <action selector="loginButtonAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="u8J-1a-HLB"/>
-                                            <segue destination="sGm-qt-h3J" kind="show" id="frH-d9-Rhf"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -198,13 +197,14 @@
                         <outlet property="passwordTextField" destination="SPF-ZL-wCn" id="nqg-6c-ApO"/>
                         <outlet property="signupButton" destination="z9A-Hp-xP6" id="H7y-Si-Hb8"/>
                         <outlet property="signupLabel" destination="BY8-4W-jgP" id="7Vv-GP-mC1"/>
+                        <segue destination="sGm-qt-h3J" kind="show" identifier="goToHomePage" id="VV9-FH-CVW"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-553.43511450381675" y="-118.30985915492958"/>
         </scene>
-        <!--Second-->
+        <!--Second View Controller-->
         <scene sceneID="Vq5-g1-0TV">
             <objects>
                 <viewController id="sGm-qt-h3J" customClass="SecondViewController" customModule="LoginScreen" customModuleProvider="target" sceneMemberID="viewController">
@@ -214,7 +214,7 @@
                         <viewLayoutGuide key="safeArea" id="mTm-RH-jfV"/>
                         <color key="backgroundColor" red="0.72376120089999996" green="0.2536925673" blue="0.34117352960000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Second" id="2X0-17-jkY"/>
+                    <navigationItem key="navigationItem" id="9Ew-ga-h4i"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Bey-SE-9j8" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

@@ -23,6 +23,7 @@ class ViewController: UIViewController {
     
     // MARK: - IBActions
     @IBAction func loginButtonAction(_ sender: UIButton) {
+        performSegue(withIdentifier: "goToHomePage", sender: sender)
     }
     @IBAction func signupButtonAction(_ sender: UIButton) {
     }
