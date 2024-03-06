@@ -11,6 +11,12 @@ class ViewController: UIViewController {
 
     // MARK: - IBOutlets
     @IBOutlet weak var loginButton: UIButton!
+    @IBOutlet weak var emailTextField: UITextField!
+    @IBOutlet weak var passwordTextField: UITextField!
+    @IBOutlet weak var emailDividerView: UIView!
+    @IBOutlet weak var passwordDividerView: UIView!
+    @IBOutlet weak var signupLabel: UILabel!
+    @IBOutlet weak var signupButton: UIButton!
     
     // MARK: - Life cycle
     override func viewDidLoad() {

@@ -184,7 +184,13 @@
                     </view>
                     <navigationItem key="navigationItem" id="ikm-Lb-M6D"/>
                     <connections>
+                        <outlet property="emailDividerView" destination="mGW-1p-naL" id="4QD-8V-r3f"/>
+                        <outlet property="emailTextField" destination="hX0-cQ-Uxh" id="BsA-n4-ogm"/>
                         <outlet property="loginButton" destination="G2U-a1-yOM" id="EYW-NE-Qux"/>
+                        <outlet property="passwordDividerView" destination="KGM-vh-N2o" id="uYW-hg-2TK"/>
+                        <outlet property="passwordTextField" destination="SPF-ZL-wCn" id="nqg-6c-ApO"/>
+                        <outlet property="signupButton" destination="z9A-Hp-xP6" id="H7y-Si-Hb8"/>
+                        <outlet property="signupLabel" destination="BY8-4W-jgP" id="7Vv-GP-mC1"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -216,7 +222,7 @@
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
         <systemColor name="systemGray5Color">
-            <color red="0.89803921568627454" green="0.89803921568627454" blue="0.91764705882352937" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.8980392157" green="0.8980392157" blue="0.91764705879999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
