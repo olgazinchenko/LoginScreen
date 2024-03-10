@@ -1,0 +1,11 @@
+/* 
+  Localizable.strings
+  LoginScreen
+
+  Created by ozinchenko.dev on 07/03/2024.
+  
+*/
+
+"Error" = "Помилка";
+"Wrong email or password" = "Неправильна електронна адреса або пароль";
+"OK" = "OK";
