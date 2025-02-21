@@ -121,7 +121,7 @@
                                     </view>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="G2U-a1-yOM">
                                         <rect key="frame" x="0.0" y="340" width="333" height="41.333333333333314"/>
-                                        <color key="backgroundColor" red="0.72376120089999996" green="0.2536925673" blue="0.34117352960000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <color key="backgroundColor" red="0.72549019607843135" green="0.25490196078431371" blue="0.3411764705882353" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="G2U-a1-yOM" secondAttribute="height" multiplier="8:1" id="WeP-fY-xTg"/>
                                         </constraints>
@@ -130,8 +130,13 @@
                                         <buttonConfiguration key="configuration" style="plain" title="LOGIN">
                                             <fontDescription key="titleFontDescription" type="boldSystem" pointSize="14"/>
                                         </buttonConfiguration>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                <integer key="value" value="5"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
                                         <connections>
-                                            <segue destination="sGm-qt-h3J" kind="show" id="frH-d9-Rhf"/>
+                                            <action selector="loginButtonAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="u8J-1a-HLB"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -152,6 +157,9 @@
                                         <buttonConfiguration key="configuration" style="plain" title="Signup here">
                                             <fontDescription key="titleFontDescription" type="system" pointSize="14"/>
                                         </buttonConfiguration>
+                                        <connections>
+                                            <action selector="signupButtonAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="9sv-Pj-iLw"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -178,12 +186,25 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="ikm-Lb-M6D"/>
+                    <connections>
+                        <outlet property="emailDividerView" destination="mGW-1p-naL" id="4QD-8V-r3f"/>
+                        <outlet property="emailIcon" destination="7At-X7-zRq" id="N2L-Ta-gqo"/>
+                        <outlet property="emailTextField" destination="hX0-cQ-Uxh" id="BsA-n4-ogm"/>
+                        <outlet property="loginButton" destination="G2U-a1-yOM" id="EYW-NE-Qux"/>
+                        <outlet property="logoImage" destination="iuS-Dp-Le5" id="sm1-Ab-lyR"/>
+                        <outlet property="passwordDividerView" destination="KGM-vh-N2o" id="uYW-hg-2TK"/>
+                        <outlet property="passwordIcon" destination="e2L-mf-yzE" id="7mh-Av-GSH"/>
+                        <outlet property="passwordTextField" destination="SPF-ZL-wCn" id="nqg-6c-ApO"/>
+                        <outlet property="signupButton" destination="z9A-Hp-xP6" id="H7y-Si-Hb8"/>
+                        <outlet property="signupLabel" destination="BY8-4W-jgP" id="7Vv-GP-mC1"/>
+                        <segue destination="sGm-qt-h3J" kind="show" identifier="goToHomePage" id="VV9-FH-CVW"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-553.43511450381675" y="-118.30985915492958"/>
         </scene>
-        <!--Second-->
+        <!--Second View Controller-->
         <scene sceneID="Vq5-g1-0TV">
             <objects>
                 <viewController id="sGm-qt-h3J" customClass="SecondViewController" customModule="LoginScreen" customModuleProvider="target" sceneMemberID="viewController">
@@ -193,7 +214,7 @@
                         <viewLayoutGuide key="safeArea" id="mTm-RH-jfV"/>
                         <color key="backgroundColor" red="0.72376120089999996" green="0.2536925673" blue="0.34117352960000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Second" id="2X0-17-jkY"/>
+                    <navigationItem key="navigationItem" id="9Ew-ga-h4i"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Bey-SE-9j8" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -208,7 +229,7 @@
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
         <systemColor name="systemGray5Color">
-            <color red="0.89803921568627454" green="0.89803921568627454" blue="0.91764705882352937" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.8980392157" green="0.8980392157" blue="0.91764705879999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
