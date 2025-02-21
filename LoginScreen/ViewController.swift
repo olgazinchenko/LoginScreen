@@ -55,7 +55,7 @@ class ViewController: UIViewController {
             makeErrorField(textField: passwordTextField)
         }
         
-        if email == mockEmail,#imageLiteral(resourceName: "simulator_screenshot_7A182A8C-63B0-4291-94E3-70B34958FE94.png")
+        if email == mockEmail,
            password == mockPassword {
             performSegue(withIdentifier: "goToHomePage", sender: sender)
         } else {
